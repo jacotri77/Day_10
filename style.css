@@ -12,6 +12,7 @@ html {
 	transition: all 1s;
 	font-weight: normal;
 	font-family: "arial", "verdana", sans-serif;
+	color:#666;
 }
 #accordion {
 	margin: 40px auto;
@@ -61,7 +62,8 @@ p{
 	height:50px;
 }
 
-.pointer:focus{
-	background: #ccc;
+.divColor{
+   cursor: pointer;   
+   background: blue;
 }
 

@@ -5,6 +5,10 @@ $(document).ready(function(){
 
    
   })
-	$("h3")
+	 $("h3").mouseenter(function () {
+        $(this).addClass("divColor");
+    }).mouseleave(function () {
+        $(this).removeClass("divColor");
 
+})
 })

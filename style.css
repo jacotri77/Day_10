@@ -9,7 +9,7 @@ html {
 *{
 	margin: 0;
 	padding:0;
-	transition: all 1s;
+	transition: all .5s;
 	font-weight: normal;
 	font-family: "arial", "verdana", sans-serif;
 	color:#666;
@@ -64,6 +64,6 @@ p{
 
 .divColor{
    cursor: pointer;   
-   background: blue;
+   background: rgb(0,218,236);
 }
 
